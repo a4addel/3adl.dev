@@ -43,7 +43,7 @@ export const Footer = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.youtube.com/channel/MahmoudAbdelwahab"
+            href="https://www.youtube.com/c/MahmoudAbdelwahab"
           >
             YouTube
           </a>
