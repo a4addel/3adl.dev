@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Six Months as a Developer Advocate",
+    "href": "6-months-as-a-developer-advocate",
+    "description": "Reflections about my journey as a developer advocate for the last 6 months"
+  },
+  {
+    "title": "Introduction to End-to-end Type Safety",
+    "href": "intro-to-end-to-end-type-safety",
+    "description": "Introduction to End-to-end Type Safety and the benefits it offers"
+  },
+  {
+    "title": "Composition Over Inheritance",
+    "href": "composition-over-inheritance",
+    "description": "A comparison between Object-oriented programming and Functional programming"
+  }
+]
