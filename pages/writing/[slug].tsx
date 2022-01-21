@@ -63,7 +63,7 @@ export default function PostPage({
         }`}
       >
         <div className="lg:grid grid-cols-12 gap-24 ">
-          <div className="lg:col-span-8 prose md:prose-lg prose-img:rounded-lg prose-img:mx-auto prose-img:shadow-lg dark:prose-invert mb-16 prose-p:text-gray-900 dark:prose-p:text-gray-100 prose-ul:text-gray-900 dark:prose-ul:text-gray-100">
+          <div className="lg:col-span-8 prose md:prose-lg prose-img:rounded-lg prose-img:mx-auto prose-img:shadow-lg dark:prose-invert mb-16 prose-p:text-gray-900 dark:prose-p:text-gray-100 prose-ul:text-gray-900 dark:prose-ul:text-gray-100 prose-ol:text-gray-900 dark:prose-ol:text-gray-100">
             <h1>{frontMatter.title}</h1>
             <div className="flex space-x-5">
               <p>{readingTime}</p>
