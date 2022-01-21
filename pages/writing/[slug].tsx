@@ -13,10 +13,11 @@ import { MDXRemote } from 'next-mdx-remote';
 import { InferGetStaticPropsType } from 'next';
 import RemarkSlug from 'remark-slug';
 import RemarkExternalLinks from 'remark-external-links';
-import RemarkAutoLinkHeadings from 'remark-autolink-headings';
+import RemarkAutoLinkHeadings from 'rehype-autolink-headings';
 // @ts-ignore
 import RemarkCapitalize from 'remark-capitalize';
 import { TableOfContents } from 'components/mdx/TableOfContents';
+import { format, parseISO } from 'date-fns';
 
 const components = {
   Image,
@@ -67,7 +68,7 @@ export default function PostPage({
             <div className="flex space-x-5">
               <p>{readingTime}</p>
               <p>-</p>
-              <p>{frontMatter.date}</p>
+              <p>{format(parseISO(frontMatter.date), 'MMMM dd, yyyy')}</p>
             </div>
             <MDXRemote {...source} components={components} />
             <div className="py-10">

@@ -5,6 +5,7 @@ import { InferGetStaticPropsType } from 'next';
 import { MagnifyingGlassIcon, SquareIcon } from '@radix-ui/react-icons';
 import { Newsletter } from 'components/Newsletter';
 import pinnedPosts from 'data/pinnedPosts.json';
+import { generateRSSFeed } from 'utils/generateRSS';
 
 const Writing = ({ posts }: InferGetStaticPropsType<typeof getStaticProps>) => {
   const emptyQuery = '';
@@ -133,5 +134,6 @@ export default Writing;
 
 export function getStaticProps() {
   const posts = getAllPosts();
+  generateRSSFeed(posts);
   return { props: { posts } };
 }

@@ -59,6 +59,9 @@ export const Footer = () => {
           <Link href="/uses">
             <a>Uses</a>
           </Link>
+          <Link href="/rss.xml">
+            <a>RSS</a>
+          </Link>
         </div>
       </div>
     </footer>
