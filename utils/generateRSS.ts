@@ -1,5 +1,8 @@
 import { Feed } from 'feed';
 import fs from 'fs';
+import { fromMarkdown } from 'mdast-util-from-markdown';
+import { toHast } from 'mdast-util-to-hast';
+import { toHtml } from 'hast-util-to-html';
 
 // @ts-ignore
 export const generateRSSFeed = (articles) => {
@@ -27,24 +30,28 @@ export const generateRSSFeed = (articles) => {
 
   // Add each article to the feed
   // @ts-ignore
-  articles.forEach((article) => {
+  articles.map((article) => {
     const {
       content,
       filePath,
       data: { date, description, title },
     } = article;
-    const url = `${baseUrl}/writing/${filePath}`;
+    const url = `${baseUrl}/writing/${filePath.split('.').slice(0, -1).join('.')}`;
+console.log(url);
+    const mdast = fromMarkdown(content);
+    const hast = toHast(mdast);
+    // @ts-ignore
+    const html = toHtml(hast);
 
     feed.addItem({
       title,
       id: url,
       link: url,
       description,
-      content,
+      content: html,
       author: [author],
       date: new Date(date),
     });
   });
-
   fs.writeFileSync('public/rss.xml', feed.rss2());
 };
