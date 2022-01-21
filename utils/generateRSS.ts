@@ -33,7 +33,7 @@ export const generateRSSFeed = (articles) => {
       filePath,
       data: { date, description, title },
     } = article;
-    const url = `${baseUrl}/${filePath}`;
+    const url = `${baseUrl}/writing/${filePath}`;
 
     feed.addItem({
       title,
