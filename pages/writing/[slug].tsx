@@ -14,8 +14,6 @@ import { InferGetStaticPropsType } from 'next';
 import RemarkSlug from 'remark-slug';
 import RemarkExternalLinks from 'remark-external-links';
 import RemarkAutoLinkHeadings from 'rehype-autolink-headings';
-// @ts-ignore
-import RemarkCapitalize from 'remark-capitalize';
 import { TableOfContents } from 'components/mdx/TableOfContents';
 import { format, parseISO } from 'date-fns';
 
@@ -100,12 +98,7 @@ export const getStaticProps = async ({ params }) => {
 
   const mdxSource = await serialize(content, {
     mdxOptions: {
-      remarkPlugins: [
-        RemarkSlug,
-        RemarkExternalLinks,
-        RemarkAutoLinkHeadings,
-        RemarkCapitalize,
-      ],
+      remarkPlugins: [RemarkSlug, RemarkExternalLinks, RemarkAutoLinkHeadings],
     },
     scope: data,
   });
