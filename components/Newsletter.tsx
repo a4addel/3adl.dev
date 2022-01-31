@@ -48,7 +48,7 @@ export const Newsletter = () => {
           Get updates about new posts, new projects, or other meaningful updates
           to this site delivered to your inbox. Alternatively, you can{' '}
           <a
-            href="http://web.archive.org/web/20210613124851/https://twitter.com/brian_lovin/"
+            href="http://twitter.com/thisismahmoud_"
             className=""
           >
             follow me on Twitter
