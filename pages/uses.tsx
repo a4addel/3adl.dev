@@ -10,7 +10,7 @@ const Uses = () => {
         <p>Stuff I use frequently during my day for work and personal use</p>
         <h2>Hardware</h2>
         <ul>
-          <li>MacBook Pro 13-inch 2020 16gb 1TB M1</li>
+          <li>MacBook Pro 16-inch 2021</li>
           <li>
             <a href="https://amzn.to/3AaLrQP">Sony A7C</a>
           </li>
