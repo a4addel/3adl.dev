@@ -114,7 +114,7 @@ const Uses = () => {
             <a href="https://vercel.com">Vercel</a> - deployment platform
           </li>
           <li>
-            <a href="https://fraamer.com/motion">framer-motion</a> - animation
+            <a href="https://framer.com/motion">framer-motion</a> - animation
             library
           </li>
           <li>
