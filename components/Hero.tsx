@@ -14,12 +14,6 @@ export const Hero = () => {
             Developer, Writer and Maker. Obsessed with creating exceptional,
             high-quality content and applications.
           </p>
-          <p className="text-xl">
-            Currently a Developer Advocate at{' '}
-            <a href="https://workos.com" className="hover:text-blue-300">
-              WorkOS
-            </a>
-          </p>
         </div>
 
         <div>

@@ -8,7 +8,7 @@ const companies = [
     title: 'Developer Advocate',
     company: 'WorkOS',
     url: 'https://workos.com',
-    date: 'Jan 2021 - Present',
+    date: 'Jan 2021 - July 2022',
     icon: (
       <svg
         className="rounded-lg shadow shadow-[#6363F1] dark:bg-gray-900 w-16 h-16 "
@@ -118,10 +118,8 @@ const About = () => {
               />
             </svg>
           </motion.button>{' '}
-          I&apos;m currently a Developer Advocate at{' '}
-          <a href="https://workos.com">WorkOS</a>, where I create videos, write
-          articles, and help developers make their applications
-          enterprise-ready.
+          I&apos;m currently a Software Engineer and Developer Advocate. I love
+          creating videos, writing articles, and educating developers.
         </p>
 
         <p>
