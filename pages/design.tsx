@@ -52,12 +52,12 @@ const Design = () => {
             />
           </div>
           <h2 className="mb-5 text-3xl md:text-4xl font-semibold tracking-wide md:text-center">
-            Devx Design Blog
+            DX Reviewed
           </h2>
           <p className="md:text-center text-xl">
             A blog about all things Developer Experience.{' '}
             <a href="https://temporal.io" className="text-blue-300 mx-1.5">
-              devx.design
+              dxreviewed.com
             </a>{' '}
             (Coming soon)
           </p>
