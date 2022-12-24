@@ -149,8 +149,7 @@ const About = () => {
         <p>
           Mahmoud is passionate about Software Development and Developer
           communities. He currently works as a Developer Advocate at{' '}
-          <a href="https://workos.com">WorkOS</a> . He loves creating videos on
-          his{' '}
+          <a href="https://neon.tech">Neon</a> . He loves creating videos on his{' '}
           <a href="https://youtube.com/c/MahmoudAbdelwahab">YouTube Channel</a>{' '}
           and in his free time, he teaches at{' '}
           <a href="https://egghead.io/q/resources-by-mahmoud-abdelwahab">

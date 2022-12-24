@@ -12,7 +12,11 @@ export const Hero = () => {
           </h1>
           <p className="text-xl mb-5">
             Developer, Writer and Maker. Obsessed with creating exceptional,
-            high-quality content and applications.
+            high-quality content and applications. Currently a Developer at
+            Advocate at{' '}
+            <a href="https://neon.tech" className="">
+              Neon
+            </a>
           </p>
         </div>
 

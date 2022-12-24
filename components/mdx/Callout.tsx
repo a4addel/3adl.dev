@@ -3,7 +3,7 @@ import React from 'react';
 export const Callout = ({ variant = 'info', content = '' }) => {
   return (
     <aside
-      className={`relative my-5 px-8 py-6 rounded  border-l-2 border-solid ${variant} `}
+      className={`relative my-5 px-8 py-6 rounded-lg  border-2 border-solid ${variant} `}
     >
       <div
         style={{ transform: 'translate(-50%, -50%)' }}
