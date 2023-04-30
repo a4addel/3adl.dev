@@ -33,11 +33,6 @@ const sideVariants = {
 
 const links = [
   { label: 'writing', href: '/writing' },
-  { label: 'speaking', href: '/speaking' },
-  { label: 'design', href: '/design' },
-  { label: 'about', href: '/about' },
-  { label: 'uses', href: '/uses' },
-  { label: 'YouTube', href: 'https://www.youtube.com/mahmoudabdelwahab' },
 ];
 export const Nav = () => {
   const router = useRouter();

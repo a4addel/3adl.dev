@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Articles by Mahmoud Abdelwahab</title>
+        <link>3adl.dev</link>
+        <description>Thinking out loud and sharing the things I learn about Software Engineering, Developer Relations, Design and more</description>
+        <lastBuildDate>Sun, 30 Apr 2023 13:52:17 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <copyright>Ahmad Addel</copyright>
+        <item>
+            <title><![CDATA[Nextjs - A better wat to use the "api" folder]]></title>
+            <link>3adl.dev/writing/Nextjs-a-better-way-to-use-the-api-folder</link>
+            <guid>3adl.dev/writing/Nextjs-a-better-way-to-use-the-api-folder</guid>
+            <pubDate>Sun, 23 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Nextjs - A better wat to use the "api" folder]]></description>
+            <author>a4addel@gmail.com (Ahmad Addel)</author>
+        </item>
+    </channel>
+</rss>

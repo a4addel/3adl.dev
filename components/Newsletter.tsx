@@ -48,7 +48,7 @@ export const Newsletter = () => {
           Get updates about new posts, new projects, or other meaningful updates
           to this site delivered to your inbox. Alternatively, you can{' '}
           <a
-            href="http://twitter.com/thisismahmoud_"
+            href="http://twitter.com/3adl_for_real"
             className=""
           >
             follow me on Twitter

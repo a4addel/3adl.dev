@@ -1,0 +1,71 @@
+---
+title: Nextjs - A better wat to use the "api" folder
+date: '2021-05-23'
+categories: ['DevRel']
+description: 'Nextjs - A better wat to use the "api" folder'
+published: true
+showTOC: false
+cover:
+  src: '/images/writing/6-months-as-a-developer-advocate/cover.png'
+  alt: 'better wat to use the "api" folder'
+---
+
+The file-based routing that is enabled by default is Nextjs Could be a great feature when it comes to routing between pages,
+but when it comes to the api's it could become a little bit ugly as your project grows.
+
+Here is an Example:
+```
+|api
+|---v1
+    |---resources
+          |---documents
+                |--- /GET endpoint <-- that's too much nesting to deal with
+
+```
+
+The excessive nesting can make it difficult to manage the API routes in a large project.
+
+One possible solution to this issue is to implement a centralized routing system that allows for cleaner and more organized API routes. This could involve using a separate routing library or creating a custom solution within the Next.js project.
+
+By implementing a centralized routing system, you can simplify the API routes and make them easier to manage as the project grows.
+
+for that we will use `express` and `micro`
+
+
+```bash
+npm i express micro
+```
+
+in case of using TypeScript
+
+```
+npm i express micro && npm i -D @types/express @types/micro
+
+```
+
+1. create a wildcard file inside the `/api` folder for example `[[...router]].ts`
+2. import the function `serve` from `micro`
+    ```ts
+        import { serve } from "micro"
+    ```
+3. wrap the the `serve` function arround the express app and export it as `export default`
+  ```ts
+    export default serve(expressApp);
+  ```
+
+Example:
+```ts
+// pages/api/[[...router]].ts
+
+import Express from "express";
+import { serve } from "micro";
+
+const app = Express();
+
+app.get("/hello-world", (req: Request, res: Response) => {
+  res.status(200).send("Hello World!");
+});
+
+export default serve(app)
+
+```

@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://mahmoudabdelwahab.com/sitemap.xml
+Sitemap: https://3adl.dev/sitemap.xml

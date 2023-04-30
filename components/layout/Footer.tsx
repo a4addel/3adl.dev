@@ -10,55 +10,40 @@ export const Footer = () => {
           <Link href="/">
             <a>Home</a>
           </Link>
-          <Link href="/about">
-            <a>About</a>
-          </Link>
+
         </div>
         <div className="flex flex-col space-y-4">
           <Link href="/writing">
             <a>Writing</a>
           </Link>
-          <Link href="/speaking">
-            <a>Speaking</a>
-          </Link>
-          <Link href="/design">
-            <a>Design</a>
-          </Link>
+          
         </div>
         <div className="flex flex-col space-y-4">
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://twitter.com/thisismahmoud_"
+            href="https://twitter.com/3adl_for_real"
           >
             Twitter
           </a>
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://github.com/m-abdelwahab"
+            href="https://github.com/a4addel"
           >
             GitHub
           </a>
+           
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.youtube.com/c/MahmoudAbdelwahab"
-          >
-            YouTube
-          </a>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://linkedin.com/in/mahmoud-codes"
+            href="https://www.linkedin.com/in/a4addel"
           >
             LinkedIn
           </a>
         </div>
         <div className="flex flex-col space-y-4">
-          <Link href="/uses">
-            <a>Uses</a>
-          </Link>
+           
           <Link href="/rss.xml">
             <a>RSS</a>
           </Link>

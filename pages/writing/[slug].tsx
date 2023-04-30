@@ -36,8 +36,8 @@ export default function PostPage({
     <>
       <NextSeo
         twitter={{
-          handle: '@thisismahmoud_',
-          site: '@thisismahmoud_',
+          handle: '@3adl_for_real',
+          site: '@3adl_for_real',
           cardType: 'summary_large_image',
         }}
         openGraph={{

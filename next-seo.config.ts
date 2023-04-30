@@ -1,29 +1,29 @@
-const title = 'Mahmoud Abdelwahab - Developer Advocate';
+const title = 'Ahmad Addel - Fullstack Developer';
 const description =
-  'Developer, writer, and maker. Obsessed with creating exceptional, high-quality, content and applications.';
+  'I am a developer and translator. I love to build stuff.';
 
 const SEO = {
   title,
   description,
-  canonical: 'https://mahmoudabdelwahab.com',
+  canonical: 'https://3adl.dev',
   openGraph: {
     type: 'website',
     locale: 'en_IE',
-    url: 'https://mahmoudabdelwahab.com',
+    url: 'https://3adl.dev',
     title,
     description,
     images: [
       {
-        url: 'https://mahmoudabdelwahab.com/images/banner.png',
+        url: 'https://3adl.dev/images/me.png',
         alt: title,
-        width: 1280,
-        height: 720,
+        width: 400,
+        height: 400,
       },
     ],
   },
   twitter: {
-    handle: '@thisismahmoud_',
-    site: '@thisismahmoud_',
+    handle: '@3adl_for_real',
+    site: '@3adl_for_real',
     cardType: 'summary_large_image',
   },
 };

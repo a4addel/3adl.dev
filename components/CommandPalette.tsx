@@ -98,7 +98,7 @@ export const CommandPalette = (props) => {
       keywords: 'go-twitter',
       section: 'Social',
       perform: () =>
-        window.open('https://twitter.com/thisismahmoud_', '_blank'),
+        window.open('https://twitter.com/3adl_for_real', '_blank'),
     },
   ];
 

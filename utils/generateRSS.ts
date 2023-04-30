@@ -6,12 +6,11 @@ import { toHtml } from 'hast-util-to-html';
 
 // @ts-ignore
 export const generateRSSFeed = (articles) => {
-  const baseUrl = 'https://mahmoudabdelwahab.com';
+  const baseUrl = '3adl.dev';
   const author = {
-    name: 'Mahmoud Abdelwahab',
-    email: 'hey@mahmoud.codes',
-    link: 'https://twitter.com/thisismahmoud_',
-  };
+    name: 'Ahmad Addel',
+    email: 'a4addel@gmail.com',
+   };
 
   // Construct a new Feed object
   const feed = new Feed({
@@ -24,7 +23,7 @@ export const generateRSSFeed = (articles) => {
     feedLinks: {
       rss2: `${baseUrl}/rss.xml`,
     },
-    copyright: 'Mahmoud Abdelwahab',
+    copyright: 'Ahmad Addel',
     author,
   });
 
