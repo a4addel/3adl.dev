@@ -2,8 +2,8 @@ import { Newsletter } from 'components/Newsletter';
 import { Writing } from 'components/Writing';
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import {  AiOutlineGithub } from "react-icons/ai";
- import { GoLogoGithub } from "react-icons/go";
+import {   AiOutlineGithub } from "react-icons/ai";
+ 
  import Image from "next/image";
 import Link from 'next/link';
 
@@ -63,7 +63,7 @@ const Home: NextPage = () => {
             >
               View on{" "}
               <span className="flex items-center">
-                <GoLogoGithub className="text-5xl" />{" "}
+                <AiOutlineGithub className="text-5xl" />{" "}
                 <AiOutlineGithub className="text-2xl" />
               </span>
             </a>
@@ -109,7 +109,7 @@ const Home: NextPage = () => {
             >
               View on{" "}
               <span className="flex items-center">
-                <GoLogoGithub className="text-5xl" />{" "}
+                <AiOutlineGithub className="text-5xl" />{" "}
                 <AiOutlineGithub className="text-2xl" />
               </span>
             </a>
