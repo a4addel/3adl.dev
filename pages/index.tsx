@@ -63,7 +63,6 @@ const Home: NextPage = () => {
             >
               View on{" "}
               <span className="flex items-center">
-                <AiOutlineGithub className="text-5xl" />{" "}
                 <AiOutlineGithub className="text-2xl" />
               </span>
             </a>
@@ -109,7 +108,7 @@ const Home: NextPage = () => {
             >
               View on{" "}
               <span className="flex items-center">
-                <AiOutlineGithub className="text-5xl" />{" "}
+                
                 <AiOutlineGithub className="text-2xl" />
               </span>
             </a>
